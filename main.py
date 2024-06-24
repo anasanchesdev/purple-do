@@ -5,7 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return render_template("index.html")
+    with open("templates/index.html", 'rb') as f:
+        contents = f.read()
+        return contents
 
 
 app.run(debug=True, port=5501)
