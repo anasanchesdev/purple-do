@@ -1,2 +1,3 @@
-# purple-do
-Purple-Do is a to-do list application built with Flask.
+# Purple-Do
+Purple-Do is a to-do list web application built with Flask.<br>
+<i>Under initial development</i>
