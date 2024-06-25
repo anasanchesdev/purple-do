@@ -1,0 +1,13 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-image: url("background.png");
+}
+
+#title {
+    font-family: "Lucida Console";
+}
