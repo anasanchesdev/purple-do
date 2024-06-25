@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    with open("templates/index.html", 'rb') as f:
+    with open("templates/index.html", 'rb') as f:  # read in binary
         contents = f.read()
         return contents
 
